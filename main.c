@@ -1,9 +1,9 @@
 // Ripped out of https://github.com/cemegginson/SDL2-Demo
-// gcc -D_REENTRANT -I/usr/include/SDL2 main.c -lSDL2 -lGL -o main
+// gcc -D_REENTRANT -I/usr/include/SDL2 main.c -lSDL2 -lGLESv2 -o main
 #include <stdio.h>
 
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_opengles2.h>
+#include <SDL2/SDL_opengl.h>
 
 int main(int argc, char* argv[]) {
 	if (SDL_Init(SDL_INIT_VIDEO) != 0) {

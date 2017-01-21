@@ -29,4 +29,4 @@ If not, there should be some error message, explaining where it failed and why.
 ### Compile
 I didn't try anything else besides Linux/x64 & gcc.
 
-    gcc -D_REENTRANT -I/usr/include/SDL2 main.c -lSDL2 -lGL -o main
+    gcc -D_REENTRANT -I/usr/include/SDL2 main.c -lSDL2 -lGLESv2 -o main
