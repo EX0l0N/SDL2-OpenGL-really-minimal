@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_opengl.h>
+#include <SDL2/SDL_opengles2.h>
 
 int main(int argc, char* argv[]) {
 	if (SDL_Init(SDL_INIT_VIDEO) != 0) {
