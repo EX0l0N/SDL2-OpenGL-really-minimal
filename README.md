@@ -7,9 +7,9 @@ By usable I mean:
 
 - not using C++ headers if it is just for some error messages
 - not including SDL1.2 headers by mistake  
-Including <SDL/SDL_opengl.h> is wrong, too!
+Including SDL/SDL_opengl.h is wrong, too!
 - including SDL2s prepared OpenGL headers  
-I use <SDL2/SDL_opengles2.h> here, but just look into the directory -  
+I use SDL2/SDL_opengles2.h here, but just look into the directory -  
 You'll surely find what you want there.
 - not mixing it up with **glfw** and alike
 - generally speaking not including anything, which should be handled by SDL2 anyway  
